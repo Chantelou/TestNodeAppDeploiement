@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banniere */
+
+.navbar-expand-lg{
+    height: 90px;
+}
+
+
+.banniere{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.453),rgba(0, 0, 0, 0.446)), url(../img/banniere.avif);
+    height: 600px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.banniere .col-lg-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    height: 400px;
+
+}
+
+.banniere .col-lg-6 h1{
+    color: white;
+    font-size: 50px;
+}
+
+.banniere .col-lg-6 p{
+    color: rgb(174, 174, 174);
+}
+
+.banniere .col-lg-6 button{
+    height: 55px;
+}
+
+/* A propos */
+
+.about{
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.373);
+}
+
+.about .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.about .col-lg-6{
+    margin-top: 20px;
+}
+
+.about .col-lg-4{
+    margin-top: 20px;
+    height: 400px;
+    background-image: url("../img/img.avif");
+}
+
+/* Ideas */
+
+.Ideas{
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.558),rgba(0, 0, 0, 0.506)),url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.Ideas .row{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.Ideas .col-lg-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    background-color: rgba(212, 212, 212, 0.746);
+}
+
+.Ideas .col-lg-6 h1{
+    font-size: 25px ;
+}
+
+.Ideas .col-lg-6 p{
+    font-size: 12px;
+}
+
+/* services */
+
+.service{
+    height: 700px;
+    padding: 50px;
+}
+
+.service h5{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service span{
+    margin: 0 auto;
+    margin-left: 90px;
+}
+
+.fas,.jeux{
+    font-size: 50px;
+    padding: 10px;
+
+}
+
+/* Experience  */
+
+.experience{
+    background-color: blue;
+    background-image: linear-gradient(rgba(40, 3, 40, 0.724),rgba(30, 2, 30, 0.77)), url(..//img/img4.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: rgb(216, 216, 216);
+}
+
+/* section footer */
+
+.footer{
+    height:300px;
+    background-color: rgb(233, 233, 233);
+}
+
+.footer ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer ul a{
+    text-decoration: none;
+}
+
+
+/*  ** partie about de notre site web** */
+
+.banniere-about{
+    height: 300px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.614),rgba(0, 0, 0, 0.64)) , url(../img/img5.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.banniere-about .row{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banniere-about .row h1{
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+.banniere-about {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.687);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* section presentation de notre page */
+
+.presentation .left{
+    margin-top: 60px;
+    height: 300px;
+    background-image: url("../img/img3.avif");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentation .sous-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentation  h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.presentation p{
+    padding:10px ;
+    text-align: center;
+}
+
+.presentation button{
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+/* section service about */
+#service-about{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+
+/* Page contact de notre site  */
+
+.banniere-contact{
+    height: 300px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.614),rgba(0, 0, 0, 0.64)) , url(../img/img5.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+
+.banniere-contact .row{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banniere-contact .row h1{
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+.banniere-contact {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.687);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* rdv */
+
+
+.rdv .fas{
+    font-size: 20px;
+}
+
+.rdv .fab{
+    font-size: 20px;
+    margin-left: 55px;
+}
