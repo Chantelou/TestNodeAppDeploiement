@@ -13,6 +13,18 @@ app.get("/", (req, res) => {
     res.render("index", {phrase})
 })
 
+app.get("/apropos", (req, res) => {
+    res.render("about")
+})
+
+app.get("/contact", (req, res) => {
+    res.render("contact")
+})
+
+
+
 //On appel les fichiers static aussi
 app.use(express.static("public"))
+
+
 

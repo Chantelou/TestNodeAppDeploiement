@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Authentification firebase avec node js",
   "main": "app.js",
+  "homepage": "https://chantelou.github.io/TestNodeAppDeploiement",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +11,11 @@
   "author": "Chantelou",
   "license": "ISC",
   "dependencies": {
+    "@netlify/functions": "^2.8.2",
+    "@types/express": "^5.0.0",
     "ejs": "^3.1.10",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "gh-pages": "^6.2.0",
+    "serverless-http": "^3.2.0"
   }
 }
